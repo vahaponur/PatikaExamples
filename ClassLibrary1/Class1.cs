@@ -30,6 +30,15 @@ namespace ClassLibrary1
 
             return d3;
         }
+        public static void DortKarakterBul(string[,] srr) {
+
+            int dortluSayisi = 0;
+            Console.WriteLine(srr.Length);
+            for (int i = 0; i < srr.Length; i++)
+            {
+               
+            }
+        }
 
     }
 

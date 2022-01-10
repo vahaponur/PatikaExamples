@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace ClassLibrary1.Odev1
+namespace ClassLibrary1.Odevler
 {
     public static class Odev1P
     {
