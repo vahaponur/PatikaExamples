@@ -7,8 +7,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Odev2.Soru2();
+            int weight = 80;
+            if (weight<=(int)BodyType.Fat)
+            {
+                Console.WriteLine("NOT "+BodyType.Fat);
+            }
         }
 
+    }
+    public enum BodyType
+    {
+        Fat=100,
+        Skinny=40,
+        Normal=70,
     }
 }

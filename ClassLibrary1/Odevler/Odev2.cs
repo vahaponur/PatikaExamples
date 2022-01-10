@@ -7,6 +7,10 @@ namespace ClassLibrary1.Odevler
 {
     public static class Odev2
     {
+         static Odev2()
+        {
+
+        }
         public static void Soru1()
         {
             ArrayList arrList = new ArrayList();
@@ -47,6 +51,7 @@ namespace ClassLibrary1.Odevler
         }
         public static void Soru2()
         {
+           
             int[] girilen = new int[20];
             for (int i = 0; i < girilen.Length; i++)
             {
